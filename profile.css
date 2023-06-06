@@ -231,7 +231,7 @@ p{
 
   .social-media-icons{
   	color: white;
-  	margin-left: 39%;
+  	margin-left: 36%;
   	margin-top: 15px;
   }
 
@@ -246,6 +246,12 @@ p{
     margin-top: 0;
   }
 
+
+  a{
+  	text-decoration: none;
+  	text-decoration-line: none;
+  	list-style: none;
+  }
 
    ul{
   padding: 0;
@@ -378,6 +384,10 @@ p{
 }
 
 
+#mypdf {
+	width: 85%;
+	height: 975px;
+}
 
 .link{
 	width: 100%;
