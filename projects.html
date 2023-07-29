@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="x-icon" href="Images/Pluga Logo3.png">
+	<title>projects</title>
+	<link rel="stylesheet" href="pluga.css" />
+	<!-- Font Awesome icon cdn -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<script src="https://kit.fontawesome.com/61003df5a9.js" crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <style>
+    .share-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 14px;
+      cursor: pointer;
+      display: inline-block;
+      align-self: left;
+      margin-right: 70%;
+      margin-bottom: 5%;
+    }
+
+    .social-platforms {
+      display: none;
+    }
+
+    .social-platforms.show {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .social-platforms a {
+      margin: 8px;
+      color: white;
+      font-size: 30px;
+    }
+  </style>
+	<script>
+		function showSocialPlatforms() {
+			const socialPlatforms = document.querySelector('.social-platforms');
+			socialPlatforms.classList.toggle('show');
+		}
+
+		function shareLink(platform) {
+			var linkToShare = "https://landa-pluga.netlify.app/projects.html"; // Replace with your link to share
+			var socialUrl;
+
+			if (platform === 'facebook') {
+				socialUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'instagram') {
+				socialUrl = 'https://www.instagram.com/share?url=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'email') {
+				socialUrl = 'mailto:?body=' + encodeURIComponent(linkToShare);
+			} else if (platform === 'whatsapp') {
+				socialUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(linkToShare);
+			}
+
+			window.open(socialUrl, '_blank');
+		}
+	</script>
+
+</head>
+<body>
+
+
+	<div class="wrapper">
+		<div class="page">
+	<div class="cover" style="height: auto; width: auto; background-color: transparent; border-radius: 95px; margin-top: 20px;">
+		</div>
+
+			<div class="buttons" style="text-align: center;">
+				<button onclick="window.location.href='gallery.html';">
+					<i class="fa-solid fa-image"></i>Gallery
+				</button>
+
+			<button onclick="window.location.href='index.html';">
+					<i class="fa-solid fa-house"></i>Home
+				</button>
+			</div>
+			<hr>
+			
+				
+<div class="share-button" onclick="showSocialPlatforms()"><i class="fas fa-share"></i>Share Plug</div>
+  <div class="social-platforms">
+    <a href="https://landa-pluga.netlify.app/projects.html" onclick="shareLink('facebook')"><i class="fab fa-facebook" style="color: blue"></i></a>
+    <a href="https://landa-pluga.netlify.app/projects.html" onclick="shareLink('instagram')"><i class="fab fa-instagram" style="color: purple"></i></a>
+    <a href="https://landa-pluga.netlify.app/projects.html" onclick="shareLink('email')"><i class="fas fa-envelope" style="color: red"></i></a>
+    <a href="https://landa-pluga.netlify.app/projects.html" onclick="shareLink('whatsapp')"><i class="fab fa-whatsapp" style="color: green"></i></a>
+  </div>
+<div class="selection-links" style="align-items: center;">
+  <div class="link new-link" style="text-align: center;">
+<div class="items" style="text-align: center;">
+
+<div class="box">
+<h3 style="text-align: center; color: black; margin-bottom: 5px;">POEMS</h3>
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">CINA MTFWANAMAKE</p>
+<audio controls src="Audio/Landa-AUD (1).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">UMONA</p>
+<audio controls src="Audio/Landa-AUD (2).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">NHLITIYO YAMI</p>
+<audio controls src="Audio/Landa-AUD (3).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">TINSUKU TEKUGCINA</p>
+<audio controls src="Audio/Landa-AUD (4).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">NAKIMI BAYOSHO</p>
+<audio controls src="Audio/Landa-AUD (5).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">EMANDVULO</p>
+<audio controls src="Audio/Landa-AUD (6).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">UMHLABA KAWUNONI</p>
+<audio controls src="Audio/Landa-AUD (7).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">SISABA KUKHULUMA</p>
+<audio controls src="Audio/Landa-AUD (8).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">KUBEKETELA KWABULALA DZADZEWETFU</p>
+<audio controls src="Audio/Landa-AUD (9).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">AKUSAFANI</p>
+<audio controls src="Audio/Landa-AUD (10).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">NAMI KWANGEHLAKALELA</p>
+<audio controls src="Audio/Landa-AUD (11).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">POETIC SOUL ft Poetess Landa</p>
+<audio controls src="Audio/Landa-AUD (12).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid darkgray;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">ITOLO KULAMUHLA</p>
+<audio controls src="Audio/Landa-AUD (13).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">THULATHULA NANA</p>
+<audio controls src="Audio/Landa-AUD (14).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">NKANYETI YETIMANGA</p>
+<audio controls src="Audio/Landa-AUD (15).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">TSEMBALAMI LEMINYAKA</p>
+<audio controls src="Audio/Landa-AUD (16).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+
+
+<div style="border: 2px solid darkgray; display: flex; flex-direction: column; text-align: center;">
+<img src="Images/Landa-image (7).png" style="width: 37%; height: 200px; margin: 7px; margin-left: 5%; border-radius: 10px; border: 4px solid white;">
+<p style="text-align: center; width: 37%; margin-left: 5%; margin-top: 5px; ">STHANDWA SAMI</p>
+<audio controls src="Audio/Landa-AUD (17).mp3" style="height: 100px; margin-left: 5%; margin-right: 50px; margin-top: -55px; margin-bottom: 5px;"></audio>
+</div>
+</div>
+<br><br>
+
+<h3 style="text-align: center; color: black; margin-bottom: 10px;">MUSIC VIDEOS</h3>
+
+<video controls src="Videos/Landa-Pvideo2.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo3.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo4.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo5.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo6.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo7.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo8.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo9.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+<video controls src="Videos/Landa-Pvideo1.mp4" width="65%" style="border-radius: 10%; border: 12px solid white;"></video>
+
+
+<h3 style="text-align: center; color: black; margin-bottom: 4px;">EXPERIENCE & INTEREST</h3>
+<p>
+Worked temporary as a news anchor at Kamhlushwa Radio Station in 2021.
+<br>
+I am also an event orginiser for the annual Nkomazi Poetry Competition.
+<br>
+I am an award minning poet, thank you!
+<br>
+</p>
+</div>
+<button onclick="window.location.href='funding.html';">
+					<i class="fa-solid fa-hand-holding-dollar"></i>Sponsor Me
+				</button>
+<button onclick="window.location.href='index.html';" style="text-align: center;">
+					<i class="fa-solid fa-house"></i>Home
+				</button>
+<div>
+<img src="Images/Pluga Logo3.png" style="text-align: center; width: 40px; height: auto; margin-left: 0%">
+</div>
+<iframe id=""src="" frameborder="0"></iframe>
+<div class="widget" style="font-size: 7px; margin-top: 70px;">
+                    <ul class="style2">
+                      <li><a href="https://www.termsfeed.com/live/1ab1c651-5b25-43e4-8812-d7e8658a1dd3">Privacy Policy</a></li>
+                      <li><a href="https://www.termsfeed.com/live/07228ddf-8948-43c8-8992-679d5a7536e2">terms</a></li>
+                    </ul>
+                  </div>
+    </div>
+
+	<footer>
+<div class="outer-footer">
+    Copyright &copy; 2023 @Blossom Velder pty, Ltd. All Rigths Reserved
+  </div>
+  	</div>				
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+<script src="pluga.js"></script>
+</body>
+</html>
