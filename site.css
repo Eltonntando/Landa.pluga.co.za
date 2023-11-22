@@ -85,14 +85,14 @@ body{
 
 .header-section .header-nav{
     padding: 10px;
-    height: 60%;
+    height: 70%;
     width: 50%;
     display: inline-flex;
     justify-content: space-between;
 }
 
 .header-nav ul{
-    width: 110%;
+    width: 150%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,6 +111,18 @@ body{
     animation-delay: 1s;
 }
 .header-nav ul li:nth-child(4){
+    animation-delay: 1.5s;
+}
+.header-nav ul li:nth-child(5){
+    animation-delay: 1.5s;
+}
+.header-nav ul li:nth-child(6){
+    animation-delay: 1.5s;
+}
+.header-nav ul li:nth-child(7){
+    animation-delay: 1.5s;
+}
+.header-nav ul li:nth-child(8){
     animation-delay: 1.5s;
 }
 .header-nav ul li a{
@@ -327,7 +339,7 @@ a{
         display: none;
         overflow: hidden;
         content: " ";
-        height: 40%;
+        height: 65%;
         width: 80%;
         border-radius: 20px;
         background-color: var(--primaryColor);
